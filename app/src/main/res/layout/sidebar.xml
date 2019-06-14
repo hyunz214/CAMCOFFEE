@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:orientation="vertical"
+    android:id="@+id/sidearea">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:background="#f4e5d2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="40px"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_user_w"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="탁현지 님"
+            android:textSize="20dp"
+            android:id="@+id/user_name"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:maxWidth="0dp"
+            android:padding="50px"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_clear"
+            android:id="@+id/side_close"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="60dp"
+            android:maxHeight="60dp"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_bell" />
+
+        <TextView
+            android:id="@+id/notice_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="0px"
+            android:textSize="17dp"
+            android:text="공지사항" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="55dp"
+                android:maxHeight="60dp"
+                android:padding="15dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_orederlist" />
+
+            <TextView
+                android:id="@+id/orderlist_page"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="17dp"
+                android:text="주문내역" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="60dp"
+                android:maxHeight="60dp"
+                android:padding="16dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_basket_2"/>
+
+            <TextView
+                android:id="@+id/cart_page"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="17dp"
+                android:text="장바구니" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="55dp"
+                android:maxHeight="60dp"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_ask" />
+
+            <TextView
+                android:id="@+id/question_page"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="17dp"
+                android:text="1:1 문의" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="55dp"
+                android:maxHeight="60dp"
+                android:padding="16dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_info" />
+
+            <TextView
+                android:id="@+id/info_page"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="17dp"
+                android:text="이용안내" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

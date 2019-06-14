@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#f4e5d2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="130dp"
+        android:maxWidth="130dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_camcoffe_logo_2"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMCOFFEE"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="캠커피에 오신것을 환영합니다."
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlogin"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:background="@drawable/round_button_brown"
+        android:layout_marginBottom="20dp"
+        android:text="로그인"
+        />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnjoin"
+        android:textColor="#835f54"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:background="@drawable/round_button_trans"
+        android:text="간편 회원가입"
+        />
+
+
+</LinearLayout>
